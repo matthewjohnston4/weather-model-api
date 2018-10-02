@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { ApolloServer, gql } = require('apollo-server');
 const models = require('./data.js');
 

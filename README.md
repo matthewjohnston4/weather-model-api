@@ -13,7 +13,8 @@ The API is presented using GraphQL and ApolloServer, and requires minimal setup.
 
 1. Clone the repository. 
 2. In the root of the repo, run `yarn`, which will install dependencies. 
-3. Run `node index.js`
+3. Run `node index.js`.
+4. Go to `localhost:4000` in your browser.
 
 ## Contributing
 
