@@ -56,6 +56,7 @@ module.exports = [
     ],
     "runs": [
       {
+        "label": "00Z",
         "start": {
           "hour": 3,
           "minute": 30
@@ -64,6 +65,7 @@ module.exports = [
         "limit": 240
       },
       {
+        "label": "06Z",
         "start": {
           "hour": 9,
           "minute": 30
@@ -72,6 +74,7 @@ module.exports = [
         "limit": 240
       },
       {
+        "label": "12Z",
         "start": {
           "hour": 15,
           "minute": 30
@@ -80,6 +83,7 @@ module.exports = [
         "limit": 240
       },
       {
+        "label": "18Z",
         "start": {
           "hour": 21,
           "minute": 30
