@@ -468,7 +468,7 @@ module.exports = [
       {
         "label": "00Z",
         "start": {
-          "hour": 0,
+          "hour": 3,
           "minute": 0
         },
         "duration": 70,
@@ -477,8 +477,8 @@ module.exports = [
       {
         "label": "06Z",
         "start": {
-          "hour": 8,
-          "minute": 0
+          "hour": 10,
+          "minute": 5
         },
         "duration": 70,
         "limit": 72
@@ -486,7 +486,7 @@ module.exports = [
       {
         "label": "12Z",
         "start": {
-          "hour": 14,
+          "hour": 15,
           "minute": 0
         },
         "duration": 70,
@@ -495,8 +495,8 @@ module.exports = [
       {
         "label": "18Z",
         "start": {
-          "hour": 0,
-          "minute": 0
+          "hour": 22,
+          "minute": 05
         },
         "duration": 70,
         "limit": 60
