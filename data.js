@@ -47,6 +47,49 @@ module.exports = [
     ]
   },
   {
+    "name": "GFS",
+    "res": 28,
+    "minFrameSize": 180,
+    "viewLinks": [
+      "http://www.meteociel.fr/modeles/gfs/royaume-uni/precipitations/3h.htm",
+      "https://www.netweather.tv/charts-and-data/gfs"
+    ],
+    "runs": [
+      {
+        "start": {
+          "hour": 3,
+          "minute": 30
+        },
+        "duration": 90,
+        "limit": 240
+      },
+      {
+        "start": {
+          "hour": 9,
+          "minute": 30
+        },
+        "duration": 90,
+        "limit": 240
+      },
+      {
+        "start": {
+          "hour": 15,
+          "minute": 30
+        },
+        "duration": 90,
+        "limit": 240
+      },
+      {
+        "start": {
+          "hour": 21,
+          "minute": 30
+        },
+        "duration": 90,
+        "limit": 240
+      }
+    ]
+  },
+  {
     "name": "ECM",
     "res": 56,
     "minFrameSize": 180,
@@ -99,95 +142,6 @@ module.exports = [
         },
         "duration": 30,
         "limit": 144
-      }
-    ]
-  },
-  {
-    "name": "ARPEGE",
-    "res": 56,
-    "minFrameSize": 3,
-    "viewLinks": [
-      "http://www.meteociel.fr/modeles/arpegee_cartes.php"
-    ],
-    "runs": [
-      {
-        "label": "00Z",
-        "start": {
-          "hour": 4,
-          "minute": 0
-        },
-        "duration": 90,
-        "limit": 102
-      },
-      {
-        "label": "06Z",
-        "start": {
-          "hour": 10,
-          "minute": 0
-        },
-        "duration": 90,
-        "limit": 72
-      },
-      {
-        "label": "12Z",
-        "start": {
-          "hour": 16,
-          "minute": 0
-        },
-        "duration": 90,
-        "limit": 114
-      },
-      {
-        "label": "18Z",
-        "start": {
-          "hour": 22,
-          "minute": 0
-        },
-        "duration": 90,
-        "limit": 60
-      }
-    ]
-  },
-  {
-    "name": "GFS",
-    "res": 28,
-    "minFrameSize": 180,
-    "viewLinks": [
-      "http://www.meteociel.fr/modeles/gfs/royaume-uni/precipitations/3h.htm",
-      "https://www.netweather.tv/charts-and-data/gfs"
-    ],
-    "runs": [
-      {
-        "start": {
-          "hour": 3,
-          "minute": 30
-        },
-        "duration": 90,
-        "limit": 240
-      },
-      {
-        "start": {
-          "hour": 9,
-          "minute": 30
-        },
-        "duration": 90,
-        "limit": 240
-      },
-      {
-        "start": {
-          "hour": 15,
-          "minute": 30
-        },
-        "duration": 90,
-        "limit": 240
-      },
-      {
-        "start": {
-          "hour": 21,
-          "minute": 30
-        },
-        "duration": 90,
-        "limit": 240
       }
     ]
   },
@@ -454,6 +408,52 @@ module.exports = [
         },
         "duration": 90,
         "limit": 30
+      }
+    ]
+  },
+  {
+    "name": "ARPEGE",
+    "res": 56,
+    "minFrameSize": 3,
+    "viewLinks": [
+      "http://www.meteociel.fr/modeles/arpegee_cartes.php"
+    ],
+    "runs": [
+      {
+        "label": "00Z",
+        "start": {
+          "hour": 4,
+          "minute": 0
+        },
+        "duration": 90,
+        "limit": 102
+      },
+      {
+        "label": "06Z",
+        "start": {
+          "hour": 10,
+          "minute": 0
+        },
+        "duration": 90,
+        "limit": 72
+      },
+      {
+        "label": "12Z",
+        "start": {
+          "hour": 16,
+          "minute": 0
+        },
+        "duration": 90,
+        "limit": 114
+      },
+      {
+        "label": "18Z",
+        "start": {
+          "hour": 22,
+          "minute": 0
+        },
+        "duration": 90,
+        "limit": 60
       }
     ]
   },
