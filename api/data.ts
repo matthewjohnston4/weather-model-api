@@ -1,4 +1,4 @@
-module.exports = [
+export const models = [
   {
     "name": "GFS",
     "res": 111,
@@ -500,7 +500,7 @@ module.exports = [
         "label": "18Z",
         "start": {
           "hour": 22,
-          "minute": 05
+          "minute": 5
         },
         "duration": 70,
         "limit": 60

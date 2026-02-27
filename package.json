@@ -1,14 +1,26 @@
 {
   "name": "weather-model-api",
+  "type": "module",
   "version": "1.0.0",
   "description": "GraphQL API for querying for weather models, info about them, their run times, etc. ",
-  "main": "index.js",
+  "main": "api/app.js",
   "repository": "git@github.com:matthewjohnston4/weather-model-api.git",
   "author": "Matthew Johnston <matthewjohnston4@outlook.com>",
   "license": "GPL3",
   "private": true,
   "dependencies": {
-    "apollo-server": "^2.1.0",
-    "graphql": "^14.0.2"
+    "@apollo/server": "^5.4.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "graphql": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "pnpm run compile && node ./dist/index.js",
+    "dev": "pnpm start"
   }
 }
